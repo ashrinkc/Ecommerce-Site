@@ -14,6 +14,7 @@ const Home:React.FC = () => {
         <Navbar/>
         <Slider/>
         <Categories/>
+        {/* @ts-ignore */}
         <Product/>
         <Newsletter/>
         <Footer/>

@@ -7,7 +7,7 @@ const Categories:React.FC = () => {
     <div className='catContainer'>
       {
         categories.map(item=>(
-          <CategoryItem key={item.id} id={item.id} img={item.img} title={item.title}/>
+          <CategoryItem key={item.id} id={item.id} img={item.img} title={item.title} cat={item.cat}/>
         ))
       }
     </div>

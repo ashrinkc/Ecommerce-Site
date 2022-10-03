@@ -80,13 +80,22 @@
     padding: 5px;
 }
 
-.filterColorR{
+.red{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: red;
     margin: 0px 5px;
     cursor: pointer;
+}
+
+.yellow{
+    width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: yellow;
+        margin: 0px 5px;
+        cursor: pointer;
 }
 
 .filterColorBl {
@@ -316,7 +325,7 @@ padding: 20px;
     font-weight: 200;
 }
 
-.cartSummary>button{
+.strbtn{
     width: 100%;
     padding: 10px;
     background-color: black;

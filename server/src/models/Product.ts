@@ -5,8 +5,8 @@ interface IProduct{
     desc:string,
     img:string,
     categories:string[],
-    size:string,
-    color:string,
+    size:string[],
+    color:string[],
     price:number
 }
 
@@ -29,14 +29,18 @@ const ProductSchema = new Schema(
             type:Array
         },
         size:{
-            type:String
+            type:Array
         },
         color:{
-            type:String
+            type:Array
         },
         price:{
             type:Number,
             reuired:true
+        },
+        inStock:{
+            type:Boolean,
+            default:true
         }
     },
     {

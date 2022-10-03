@@ -2,17 +2,20 @@ export const categories = [
     {
         id:1,
         img:"https://res.cloudinary.com/dlwdq84ig/image/upload/v1663167176/cff8legq2ke42oddlaba.jpg",
-        title:"SHIRT STYLE!"
+        title:"SHIRT STYLE!",
+        cat:"women"
     },
     {
         id:2,
         img:"https://images.squarespace-cdn.com/content/v1/5b608212ec4eb7a5e69c9cc6/1566580304500-UDKE9D92OSTGHRPIK6F6/Lunya_WashableSilkSet_Cloud-4_1.jpg",
-        title:"LOUNGEWEAR LOVE"
+        title:"LOUNGEWEAR LOVE",
+        cat:"coat"
     },
     {
         id:3,
         img:"https://i.insider.com/6261c474db73840018a58095?width=1000&format=jpeg&auto=webp",
-        title:"LIGHT JACKETS"
+        title:"LIGHT JACKETS",
+        cat:"jeans"
     }
 ]
 
