@@ -18,8 +18,8 @@ export const register = async(req:Request,res:Response) =>{
 }
 
 export const login = async(req:Request,res:Response) =>{
+    console.log(req.body)
     try{
-        
         const {email,password} = req.body
         const userData = await User.findOne({email});
         const validPassword = await bcrypt.compare(password, userData!.password)

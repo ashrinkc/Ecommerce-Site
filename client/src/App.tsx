@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import { Navigate } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import Cart from './pages/Cart';
@@ -9,7 +10,7 @@ import ProductList from './pages/ProductList';
 import Register from './pages/Register';
 
 const App:React.FC = () => {
-  const user = true
+  const user = useSelector((state:any)=>state.user.currentUser)
   return (
     <div>
       <Routes>

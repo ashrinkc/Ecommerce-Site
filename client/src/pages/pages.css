@@ -343,3 +343,12 @@ padding: 20px;
 .summaryItem>p{
 
 }
+
+.logBtn:disabled{
+    color: green;
+    cursor: not-allowed;
+}
+
+.wrong{
+    color: red;
+}
